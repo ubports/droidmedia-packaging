@@ -1,0 +1,25 @@
+From 6d42190735569005a8fbf566c376cd9c04ad218a Mon Sep 17 00:00:00 2001
+From: Bhushan Shah <bhush94@gmail.com>
+Date: Fri, 15 Dec 2017 14:05:38 +0530
+Subject: [PATCH] Fix path for halium
+
+---
+ hybris.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hybris.c b/hybris.c
+index da25af2..d2214a3 100644
+--- a/hybris.c
++++ b/hybris.c
+@@ -27,7 +27,7 @@
+ #include <stdlib.h>
+ 
+ #ifndef LIB_DROID_MEDIA_PATH
+-#define LIB_DROID_MEDIA_PATH "/usr/libexec/droid-hybris/system/lib/libdroidmedia.so"
++#define LIB_DROID_MEDIA_PATH "/system/lib/libdroidmedia.so"
+ #endif
+ 
+ void *android_dlopen(const char *name, int flags);
+-- 
+2.15.1
+

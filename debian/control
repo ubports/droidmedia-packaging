@@ -1,0 +1,15 @@
+Source: droidmedia
+Section: libdevel
+Priority: optional
+Maintainer: Bhushan Shah <bhush94@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/droidmedia.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/droidmedia.git
+
+Package: droidmedia
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Android media wrapper library
+ Android media wrapper library

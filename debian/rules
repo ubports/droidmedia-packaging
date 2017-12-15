@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+%:
+	dh $@ 
+
+override_dh_install:
+	dh_install *.h /usr/include/droidmedia/
+	dh_install hybris.c /usr/share/droidmedia/
