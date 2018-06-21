@@ -1,3 +1,9 @@
+droidmedia (0.20180406.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Thu, 07 Jun 2018 16:34:12 +0200
+
 droidmedia (1.0-1) unstable; urgency=medium
 
   * Initial release.
