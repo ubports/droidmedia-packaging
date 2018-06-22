@@ -9,7 +9,8 @@ Vcs-Git: https://gitlab.com/debian-pm/droidmedia.git
 Vcs-Browser: https://gitlab.com/debian-pm/droidmedia
 
 Package: droidmedia
-Architecture: any
+Architecture: all
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Android media wrapper library
  Android media wrapper library
