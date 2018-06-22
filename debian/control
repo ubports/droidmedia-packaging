@@ -2,11 +2,11 @@ Source: droidmedia
 Section: libdevel
 Priority: optional
 Maintainer: Bhushan Shah <bhush94@gmail.com>
-Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
 Homepage: http://github.com/sailfishos/droidmedia
-#Vcs-Git: git://anonscm.debian.org/collab-maint/droidmedia.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/droidmedia.git
+Vcs-Git: https://gitlab.com/debian-pm/droidmedia.git
+Vcs-Browser: https://gitlab.com/debian-pm/droidmedia
 
 Package: droidmedia
 Architecture: any
