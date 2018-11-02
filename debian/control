@@ -5,8 +5,8 @@ Maintainer: Bhushan Shah <bhush94@gmail.com>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
 Homepage: http://github.com/sailfishos/droidmedia
-Vcs-Git: https://gitlab.com/debian-pm/droidmedia.git
-Vcs-Browser: https://gitlab.com/debian-pm/droidmedia
+Vcs-Git: https://gitlab.com/debian-pm/halium/droidmedia.git
+Vcs-Browser: https://gitlab.com/debian-pm/halium/droidmedia
 
 Package: droidmedia
 Architecture: all
