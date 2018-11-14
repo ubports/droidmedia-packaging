@@ -3,7 +3,7 @@ Section: libdevel
 Priority: optional
 Maintainer: Bhushan Shah <bhush94@gmail.com>
 Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.4
+Standards-Version: 4.2.1
 Homepage: http://github.com/sailfishos/droidmedia
 Vcs-Git: https://gitlab.com/debian-pm/halium/droidmedia.git
 Vcs-Browser: https://gitlab.com/debian-pm/halium/droidmedia
