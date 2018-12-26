@@ -1,8 +1,14 @@
-droidmedia (0.20181017.0-1) UNRELEASED; urgency=medium
+droidmedia (0.20181119.0-1) UNRELEASED; urgency=medium
 
-  * New upstream release
+  * New upstream release.
 
- -- Jonah Brüchert <jbb@kaidan.im>  Wed, 14 Nov 2018 21:08:44 +0100
+ -- Jonah Brüchert <jbb@kaidan.im>  Wed, 26 Dec 2018 19:16:23 +0100
+
+droidmedia (0.20181017.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Wed, 26 Dec 2018 19:16:20 +0100
 
 droidmedia (0.20180626.0-1) unstable; urgency=medium
 
