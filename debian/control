@@ -11,6 +11,6 @@ Vcs-Browser: https://gitlab.com/debian-pm/halium/droidmedia
 Package: droidmedia
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}
 Description: Android media wrapper library
  Android media wrapper library
