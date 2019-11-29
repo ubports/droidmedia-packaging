@@ -1,3 +1,16 @@
+droidmedia (0.20191025.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * New function droid_media_codec_is_supported is added in 0.20191010.0.
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Fri, 29 Nov 2019 22:35:49 +0700
+
+droidmedia (0.20190828.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Sun, 06 Oct 2019 16:35:56 +0200
+
 droidmedia (0.20190805.0-1~ubports16.04.1) xenial; urgency=medium
 
   * Import to UBPorts
