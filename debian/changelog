@@ -1,3 +1,12 @@
+droidmedia (0.20191025.0-1~ubports16.04.2) xenial; urgency=medium
+
+  * Merge version 0.20191025.0-1 from debian-pm.
+  * Update source location for 0.20191025.0.
+  * Note: UBports version bumped to 16.04.2 because 16.04.1 is used in
+    a test branch. Sorry!
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Mon, 20 Jan 2020 00:22:08 +0700
+
 droidmedia (0.20191025.0-1) unstable; urgency=medium
 
   * New upstream release
