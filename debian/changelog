@@ -1,3 +1,9 @@
+droidmedia (0.20191025.0-1~ubports16.04.3) xenial; urgency=medium
+
+  * Make hybris.c look for the library in the correct path for 64-bit system.
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Thu, 06 Feb 2020 14:43:23 +0700
+
 droidmedia (0.20191025.0-1~ubports16.04.2) xenial; urgency=medium
 
   * Merge version 0.20191025.0-1 from debian-pm.
