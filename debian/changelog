@@ -1,3 +1,10 @@
+droidmedia (0.20200424.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update 0001-Fix-path-for-halium.patch to work with 64-bit systems
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Fri, 08 May 2020 02:44:20 +0700
+
 droidmedia (0.20191025.0-1~ubports16.04.3) xenial; urgency=medium
 
   * Make hybris.c look for the library in the correct path for 64-bit system.
