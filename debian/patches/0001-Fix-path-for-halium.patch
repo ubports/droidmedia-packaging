@@ -1,25 +1,25 @@
-From 6d42190735569005a8fbf566c376cd9c04ad218a Mon Sep 17 00:00:00 2001
 From: Bhushan Shah <bhush94@gmail.com>
-Date: Fri, 15 Dec 2017 14:05:38 +0530
+From: Ratchanan Srirattanamet <ratchanan@ubports.com>
 Subject: [PATCH] Fix path for halium
 
----
- hybris.c | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+Bhushan provides the initial patch. I (Ratchanan) updated it to work with 64-bit
+system.
 
-diff --git a/hybris.c b/hybris.c
-index da25af2..d2214a3 100644
+Forwarded: not-needed
+Last-Update: 2020-02-06
+
 --- a/hybris.c
 +++ b/hybris.c
-@@ -27,7 +27,7 @@
+@@ -27,7 +27,11 @@
  #include <stdlib.h>
  
  #ifndef LIB_DROID_MEDIA_PATH
 -#define LIB_DROID_MEDIA_PATH "/usr/libexec/droid-hybris/system/lib/libdroidmedia.so"
++#ifdef __LP64__ // Both AMD64 and AARCH64
++#define LIB_DROID_MEDIA_PATH "/system/lib64/libdroidmedia.so"
++#else
 +#define LIB_DROID_MEDIA_PATH "/system/lib/libdroidmedia.so"
++#endif // __LP64__
  #endif
  
  void *android_dlopen(const char *name, int flags);
--- 
-2.15.1
-
