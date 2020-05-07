@@ -1,8 +1,9 @@
-droidmedia (0.20200424.0-1) UNRELEASED; urgency=medium
+droidmedia (0.20200424.0-1) unstable; urgency=medium
 
   * New upstream release.
+  * Update 0001-Fix-path-for-halium.patch to work with 64-bit systems
 
- -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Fri, 08 May 2020 02:41:09 +0700
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Fri, 08 May 2020 02:44:20 +0700
 
 droidmedia (0.20191025.0-1) unstable; urgency=medium
 
