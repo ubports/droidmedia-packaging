@@ -1,3 +1,10 @@
+droidmedia (0.20200424.0-1~ubports16.04.1) xenial; urgency=medium
+
+  * Merge version 0.20200424.0 from Debian-PM
+  * Update source location for 0.20200424.0
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Tue, 09 Jun 2020 00:35:51 +0700
+
 droidmedia (0.20200424.0-1) unstable; urgency=medium
 
   * New upstream release.
