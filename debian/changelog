@@ -1,3 +1,9 @@
+droidmedia (0.20200424.0-1~ubports16.04.2) xenial; urgency=medium
+
+  * Update Jenkinsfile to the shared library scheme (demo mission).
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Wed, 12 Aug 2020 01:46:34 +0700
+
 droidmedia (0.20200424.0-1~ubports16.04.1) xenial; urgency=medium
 
   * Merge version 0.20200424.0 from Debian-PM
